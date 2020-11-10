@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fetch API: Part 1</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div class="header">Avenger</div>
+    
+
+    <p id="avenger" class="avenger-txt"></p>
+ 
+
+    <script>
+      console.log('Avengers Go!!!');
+      const filenames = [
+        'images/avenger1.jpg',
+        'images/avenger2.jpg',
+        'images/avenger3.jpg',
+        'images/avenger4.jpg',
+        'images/avenger5.jpg',
+      ];
+
+      catchRainbows(filenames)
+        .then(response => {
+          console.log('Avengers Go!!!');
+        })
+        .catch(error => {
+          console.log('error!');
+          console.error(error);
+        });
+
+      async function catchRainbows(filenames) {
+        for (let filename of filenames) {
+          const response = await fetch(filename);
+          const blob = await response.blob();
+          const img = document.createElement('img');
+          img.src = URL.createObjectURL(blob);
+          img.height = '400';
+          document.body.append(img);
+        }
+      }
+
+
+
+      catchAvenger()
+        .then(avenger => {
+          document.getElementById('avenger').innerText = avenger;
+          console.log('yay');
+        })
+        .catch(error => {
+          console.log('error!');
+          console.error(error);
+        });
+
+      async function catchAvenger() {
+        const response = await fetch('avenger.txt');
+        return await response.text();
+      }
+    </script>
+
+
+  </body>
+</html>
