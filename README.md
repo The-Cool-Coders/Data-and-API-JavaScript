@@ -18,4 +18,4 @@ This same request/response cycle is used when you access webpages in your browse
 - Load CSV File
 - Manual Parsing
 - HTML Canvas
-- [Chart.js](https://www.chartjs.org)
+- Chart.js
