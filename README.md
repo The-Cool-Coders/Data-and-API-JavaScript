@@ -24,8 +24,6 @@ This same request/response cycle is used when you access webpages in your browse
 
 [The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
-#### Videos
-
 1. What is node, npm, and express? Setting up a server to host static pages.
 2. Accessing GeoLocation with `navigator.geolocation`.
 3. What is a POST? Sending data to the server.
@@ -52,4 +50,8 @@ This same request/response cycle is used when you access webpages in your browse
 1. Learn how to use `fetch()` to grab data from APIs in node.js.
 2. Learn how to store private API keys using environment variables.
 3. Learn how to deploy your project using services like [Glitch](http://glitch.com) and more.
+
+### Reference :
+
+- [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 
