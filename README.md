@@ -19,3 +19,37 @@ This same request/response cycle is used when you access webpages in your browse
 - Manual Parsing
 - HTML Canvas
 - Chart.js
+
+### Part 3: The Data Selfie App
+
+[The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
+
+#### Videos
+
+1. What is node, npm, and express? Setting up a server to host static pages.
+2. Accessing GeoLocation with `navigator.geolocation`.
+3. What is a POST? Sending data to the server.
+4. What is a database? Saving data to NeDB.
+5. Retrieving data from NeDB with a "RESTian" route.
+6. Adding capture and images with p5.
+7. Next steps/exercise?
+
+#### Objectives
+
+1. Learn the basics of server-side programming with Node (and express?)
+2. Learn how to save data to a database with [NedB](https://github.com/louischatriot/nedb).
+   - show just plain array
+   - show flat file
+   - introduce the idea of the database
+3. Learn how to use `fetch()` to POST data to the server.
+
+### Part 4: The Weather Here
+
+[The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
+
+#### Objectives
+
+1. Learn how to use `fetch()` to grab data from APIs in node.js.
+2. Learn how to store private API keys using environment variables.
+3. Learn how to deploy your project using services like [Glitch](http://glitch.com) and more.
+
