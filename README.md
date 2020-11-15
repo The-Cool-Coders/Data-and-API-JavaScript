@@ -12,3 +12,10 @@ This same request/response cycle is used when you access webpages in your browse
 
 - [Fetch API](https://www.javascripttutorial.net/javascript-fetch-api)
 - [Promises, Async-Await](https://javascript.info/async)
+
+### Part 2 : Fetching Data from CSV file
+
+- Load CSV File
+- Manual Parsing
+- HTML Canvas
+- [Chart.js](https://www.chartjs.org)
